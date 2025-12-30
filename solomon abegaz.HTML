@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLOMON ABEGAZ BEAUTY SCHOOL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="solomon abegaz beauty.CSS">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <h1>SOLOMON ABEGAZ BEAUTY SCHOOL</h1>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#services">EDUCATION PROGRAMS</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            
+            <div class="user-status" id="userStatus">
+                <i class="fas fa-user"></i>
+                <span id="userName">Guest</span>
+                <button class="logout-btn" id="logoutBtn" style="display: none;">LOGOUT</button>
+            </div>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h2>EXCELLENCE IN BEAUTY EDUCATION</h2>
+            <p>WELCOME TO SOLOMON ABEGAZ BEAUTY SCHOOL, WHERE WE TRAIN FUTURE BEAUTY PROFESSIONALS WITH PREMIUM EDUCATION AND INTERNATIONAL CERTIFICATION IN HAWASSA "TURUFAT AND GODGUADA", ETHIOPIA.</p>
+            <a href="#contact" class="btn btn-feedback">SEND FEEDBACK</a>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Floating Signup Button -->
+    <button class="floating-signup-btn" id="floatingSignupBtn">
+        <i class="fas fa-user-plus"></i>
+    </button>
+
+    <!-- Services Section - Beauty Education Programs -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">OUR EDUCATION PROGRAMS</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-icon scissors-icon"></div>
+                    <div class="service-content">
+                        <h3>WOMEN'S HAIR STYLING EDUCATION</h3>
+                        <p>COMPREHENSIVE HAIR STYLING TRAINING FOR ALL HAIR TYPES. OUR CERTIFIED INSTRUCTORS TEACH THE LATEST TECHNIQUES AND INTERNATIONAL STANDARDS.</p>
+                        <button class="btn btn-learn-more learn-more-btn" data-service="hair">LEARN MORE</button>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>MEN'S HAIR STYLING EDUCATION</h3>
+                        <p>SPECIALIZED BARBERING AND MEN'S GROOMING EDUCATION. LEARN TRADITIONAL AND MODERN MEN'S HAIRCUTTING TECHNIQUES.</p>
+                        <button class="btn btn-learn-more learn-more-btn" data-service="mensHair">LEARN MORE</button>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>MAKEUP ARTISTRY EDUCATION</h3>
+                        <p>PROFESSIONAL MAKEUP ARTISTRY TRAINING FOR ALL SKIN TONES. LEARN FROM INDUSTRY EXPERTS WITH INTERNATIONAL CERTIFICATION.</p>
+                        <button class="btn btn-learn-more learn-more-btn" data-service="makeup">LEARN MORE</button>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>NAIL CARE EDUCATION</h3>
+                        <p>COMPLETE NAIL TECHNICIAN TRAINING WITH FOCUS ON HYGIENE AND SAFETY. LEARN MANICURE, PEDICURE, AND NAIL ART TECHNIQUES.</p>
+                        <button class="btn btn-learn-more learn-more-btn" data-service="nail">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Details Pages -->
+    <!-- WOMEN'S Hair Styling Education Details -->
+    <section class="service-details-page" id="hairDetails">
+        <div class="container">
+            <!-- Back Button in Top Left -->
+            <a href="#services" class="back-to-services-top" id="backFromHairTop">
+                <i class="fas fa-arrow-left"></i> BACK TO PROGRAMS
+            </a>
+            
+            <div class="service-details-header">
+                <h2>WOMEN'S HAIR STYLING EDUCATION PROGRAM</h2>
+                <p>COMPREHENSIVE HAIR STYLING TRAINING FOR ALL HAIR TYPES</p>
+            </div>
+            
+            <div class="service-details-content">
+                <div>
+                    <h3>PROFESSIONAL HAIR STYLING EDUCATION</h3>
+                    <p>At Solomon Abegaz Beauty School, we offer comprehensive hair styling education that combines traditional Ethiopian hair care techniques with modern international standards. Our certified instructors provide hands-on training for all hair types.</p>
+                    
+                    <div class="service-features">
+                        <h3>OUR HAIR STYLING COURSES INCLUDE:</h3>
+                        <ul>
+                            <li><strong>Basic WOMEN'S Hair Styling Course</strong></li>
+                            <li><strong>WOMEN'S Hair Coloring Mastery</strong></li>
+                            <li><strong>WOMEN'S Hair Treatment & Repair Techniques</strong></li>
+                            <li><strong>Traditional Ethiopian WOMEN'S Braiding</strong></li>
+                            <li><strong>WOMEN'S Wedding & Special Occasion Styling</strong></li>
+                            <li><strong>WOMEN'S Hair Extensions Application</strong></li>
+                            <li><strong>Business Management for Hair Stylists</strong></li>
+                        </ul>
+                    </div>
+                    
+                    <h3>CERTIFICATION</h3>
+                    <p>Graduates receive internationally recognized certificates that open doors to career opportunities both locally and globally. Our certification is recognized by beauty associations worldwide.</p>
+                </div>
+                
+                <div>
+                    <div class="service-features">
+                        <h3>PROGRAM DETAILS</h3>
+                        <p>Our WOMEN'S hair styling education program includes:</p>
+                        <ul>
+                            <li>Basic WOMEN'S Hair Styling Course</li>
+                            <li>Specialized Color Mastery Course</li>
+                            <li>Hands-on Practical Experience</li>
+                            <li>International Certification Available</li>
+                            <li>Career Development Assistance</li>
+                            <li>Job Placement Support</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-features">
+                        <h3>ENROLLMENT INFORMATION</h3>
+                        <p>For course details and enrollment:</p>
+                        <p><strong>Phone:</strong> +251 916 86 01 29 / +251 911 97 09 37</p>
+                        <p><strong>Email:</strong>Novelrobel12@gmail.com</p>
+                        <p><strong>Call for pricing information</strong> and enrollment procedures</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hair Gallery -->
+            <div class="service-gallery" id="hairGallery">
+                <div class="gallery-header">
+                    <h3>WOMEN'S HAIR STYLING EDUCATION GALLERY</h3>
+                    <p>OUR STUDENTS LEARNING PROFESSIONAL TECHNIQUES</p>
+                </div>
+                
+                <div class="slider-container">
+                    <button class="slider-arrow prev-arrow">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    
+                    <div class="slider-track" id="hairSliderTrack">
+                        <!-- Slide 1 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="https://haysacademy.edu/wp-content/uploads/2021/06/Screen-Shot-2021-06-21-at-9.21.25-AM.png" alt="Hair Education" class="product-image">
+                                <div class="product-title">HAIR STYLING CLASSROOM</div>
+                                <div class="product-description">Students learning professional hair styling techniques</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 2 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="https://www.thehaircaregroup.com/globalassets/haircare-group/education-2025/course-pages/colour-category_mobile_640x360_08012025.jpg" alt="Hair Coloring" class="product-image">
+                                <div class="product-title">COLOR MASTERY TRAINING</div>
+                                <div class="product-description">Learning professional hair coloring techniques</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 3 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Braiding Class" class="product-image">
+                                <div class="product-title">BRAIDING WORKSHOP</div>
+                                <div class="product-description">Traditional Ethiopian braiding techniques</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="slider-arrow next-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <div class="slider-dots" id="hairSliderDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Men's Hair Styling Education Details -->
+    <section class="service-details-page" id="mensHairDetails">
+        <div class="container">
+            <!-- Back Button in Top Left -->
+            <a href="#services" class="back-to-services-top" id="backFromMensHairTop">
+                <i class="fas fa-arrow-left"></i> BACK TO PROGRAMS
+            </a>
+            
+            <div class="service-details-header">
+                <h2>MEN'S HAIR STYLING EDUCATION PROGRAM</h2>
+                <p>SPECIALIZED BARBERING AND MEN'S GROOMING EDUCATION</p>
+            </div>
+            
+            <div class="service-details-content">
+                <div>
+                    <h3>PROFESSIONAL BARBERING EDUCATION</h3>
+                    <p>Our Men's Hair Styling Education program specializes in traditional and modern barbering techniques. We train students in all aspects of men's grooming, from classic cuts to contemporary styles.</p>
+                    
+                    <div class="service-features">
+                        <h3>OUR MEN'S HAIR COURSES INCLUDE:</h3>
+                        <ul>
+                            <li><strong>MEN'S Basic Barbering Course</strong></li>
+                            <li><strong>Traditional Ethiopian Barbering</strong></li>
+                            <li><strong>Modern Men's Haircutting Techniques</strong></li>
+                            <li><strong>Beard Grooming & Styling</strong></li>
+                            <li><strong>Men's Hair Treatment</strong></li>
+                            <li><strong>Razor Cutting & Shaving</strong></li>
+                            <li><strong>Men's Salon Management</strong></li>
+                        </ul>
+                    </div>
+                    
+                    <h3>CAREER OPPORTUNITIES</h3>
+                    <p>Graduates can work in barbershops, men's salons, luxury hotels, or start their own barbering business. Our program includes business management training for entrepreneurs.</p>
+                </div>
+                
+                <div>
+                    <div class="service-features">
+                        <h3>PROGRAM HIGHLIGHTS</h3>
+                        <p>What makes our program unique:</p>
+                        <ul>
+                            <li>Focus on Ethiopian men's hair types</li>
+                            <li>Traditional barbering techniques</li>
+                            <li>Modern styling methods</li>
+                            <li>Business development training</li>
+                            <li>International certification</li>
+                            <li>Job placement assistance</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-features">
+                        <h3>ENROLLMENT INFORMATION</h3>
+                        <p>For course details and enrollment:</p>
+                        <p><strong>Phone:</strong> +251 916 86 01 29 / +251 911 97 09 37</p>
+                        <p><strong>Email:</strong>Novelrobel12@gmail.com</p>
+                        <p><strong>Call for pricing information</strong> and enrollment procedures</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Men's Hair Gallery -->
+            <div class="service-gallery" id="mensHairGallery">
+                <div class="gallery-header">
+                    <h3>MEN'S HAIR EDUCATION GALLERY</h3>
+                    <p>SPECIALIZED BARBERING TRAINING</p>
+                </div>
+                
+                <div class="slider-container">
+                    <button class="slider-arrow prev-arrow">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    
+                    <div class="slider-track" id="mensHairSliderTrack">
+                        <!-- Slide 1 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Men's Haircut" class="product-image">
+                                <div class="product-title">BARBERING TRAINING</div>
+                                <div class="product-description">Students learning professional men's haircutting</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 2 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="https://d2zdpiztbgorvt.cloudfront.net/us/cms_content/377/ed9d18e3cc6f49d292323a3ec4e073be.jpg" alt="Beard Grooming" class="product-image">
+                                <div class="product-title">BEARD GROOMING CLASS</div>
+                                <div class="product-description">Professional beard styling techniques</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 3 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Traditional Barbering" class="product-image">
+                                <div class="product-title">TRADITIONAL BARBERING</div>
+                                <div class="product-description">Learning traditional Ethiopian barbering</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="slider-arrow next-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <div class="slider-dots" id="mensHairSliderDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Makeup Artistry Education Details -->
+    <section class="service-details-page" id="makeupDetails">
+        <div class="container">
+            <!-- Back Button in Top Left -->
+            <a href="#services" class="back-to-services-top" id="backFromMakeupTop">
+                <i class="fas fa-arrow-left"></i> BACK TO PROGRAMS
+            </a>
+            
+            <div class="service-details-header">
+                <h2>MAKEUP ARTISTRY EDUCATION PROGRAM</h2>
+                <p>PROFESSIONAL MAKEUP TRAINING FOR ALL SKIN TONES</p>
+            </div>
+            
+            <div class="service-details-content">
+                <div>
+                    <h3>PROFESSIONAL MAKEUP EDUCATION</h3>
+                    <p>Our Makeup Artistry Education program trains students to become professional makeup artists. We focus on techniques suitable for Ethiopian skin tones and international beauty standards.</p>
+                    
+                    <div class="service-features">
+                        <h3>OUR MAKEUP COURSES INCLUDE:</h3>
+                        <ul>
+                            <li><strong>Basic Makeup Artistry Course</strong></li>
+                            <li><strong>Bridal Makeup Specialization</strong></li>
+                            <li><strong>Traditional Ethiopian Makeup</strong></li>
+                            <li><strong>Photoshoot & Editorial Makeup</strong></li>
+                            <li><strong>Special Effects Makeup</strong></li>
+                            <li><strong>Makeup for Film & Television</strong></li>
+                            <li><strong>Makeup Business Management</strong></li>
+                        </ul>
+                    </div>
+                    
+                    <h3>CERTIFICATION</h3>
+                    <p>Students receive international certification recognized by makeup associations worldwide. Our graduates work in beauty salons, film industry, fashion shows, and run their own businesses.</p>
+                </div>
+                
+                <div>
+                    <div class="service-features">
+                        <h3>PROGRAM FEATURES</h3>
+                        <p>What you will learn:</p>
+                        <ul>
+                            <li>Makeup for Ethiopian skin tones</li>
+                            <li>Traditional and modern techniques</li>
+                            <li>Product knowledge and application</li>
+                            <li>Sanitation and hygiene practices</li>
+                            <li>Client consultation skills</li>
+                            <li>Portfolio development</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-features">
+                        <h3>ENROLLMENT INFORMATION</h3>
+                        <p>For course details and enrollment:</p>
+                        <p><strong>Phone:</strong> +251 916 86 01 29 / +251 911 97 09 37</p>
+                        <p><strong>Email:</strong>Novelrobel12@gmail.com</p>
+                        <p><strong>Call for pricing information</strong> and enrollment procedures</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Makeup Gallery -->
+            <div class="service-gallery" id="makeupGallery">
+                <div class="gallery-header">
+                    <h3>MAKEUP EDUCATION GALLERY</h3>
+                    <p>STUDENTS LEARNING PROFESSIONAL MAKEUP TECHNIQUES</p>
+                </div>
+                
+                <div class="slider-container">
+                    <button class="slider-arrow prev-arrow">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    
+                    <div class="slider-track" id="makeupSliderTrack">
+                        <!-- Slide 1 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Makeup Class" class="product-image">
+                                <div class="product-title">MAKEUP ARTISTRY CLASS</div>
+                                <div class="product-description">Professional makeup application training</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 2 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="data:image/jpeg;base64,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" alt="Bridal Makeup" class="product-image">
+                                <div class="product-title">BRIDAL MAKEUP TRAINING</div>
+                                <div class="product-description">Learning bridal makeup techniques</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 3 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Traditional Makeup" class="product-image">
+                                <div class="product-title">TRADITIONAL MAKEUP</div>
+                                <div class="product-description">Ethiopian traditional makeup techniques</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="slider-arrow next-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <div class="slider-dots" id="makeupSliderDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nail Care Education Details -->
+    <section class="service-details-page" id="nailDetails">
+        <div class="container">
+            <!-- Back Button in Top Left -->
+            <a href="#services" class="back-to-services-top" id="backFromNailTop">
+                <i class="fas fa-arrow-left"></i> BACK TO PROGRAMS
+            </a>
+            
+            <div class="service-details-header">
+                <h2>NAIL CARE EDUCATION PROGRAM</h2>
+                <p>PROFESSIONAL NAIL TECHNICIAN TRAINING</p>
+            </div>
+            
+            <div class="service-details-content">
+                <div>
+                    <h3>PROFESSIONAL NAIL TECHNICIAN EDUCATION</h3>
+                    <p>Our Nail Care Education program trains students to become certified nail technicians with emphasis on hygiene, safety, and artistic creativity. We provide comprehensive training in all aspects of nail care.</p>
+                    
+                    <div class="service-features">
+                        <h3>OUR NAIL CARE COURSES INCLUDE:</h3>
+                        <ul>
+                            <li><strong>Basic Nail Technician Course</strong></li>
+                            <li><strong>Manicure & Pedicure Techniques</strong></li>
+                            <li><strong>Nail Art Design & Application</strong></li>
+                            <li><strong>Gel & Acrylic Nail Application</strong></li>
+                            <li><strong>Nail Health & Safety Certification</strong></li>
+                            <li><strong>Traditional Ethiopian Nail Art</strong></li>
+                            <li><strong>Nail Salon Management</strong></li>
+                        </ul>
+                    </div>
+                    
+                    <h3>CERTIFICATION & CAREER</h3>
+                    <p>Graduates receive international certification and can work in nail salons, spas, beauty centers, or start their own nail business. Our program includes business management training.</p>
+                </div>
+                
+                <div>
+                    <div class="service-features">
+                        <h3>PROGRAM FOCUS</h3>
+                        <p>Key areas of training:</p>
+                        <ul>
+                            <li>Hygiene and sanitation protocols</li>
+                            <li>Nail health and safety</li>
+                            <li>Artistic nail design</li>
+                            <li>Client consultation skills</li>
+                            <li>Product knowledge</li>
+                            <li>Business management</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-features">
+                        <h3>ENROLLMENT INFORMATION</h3>
+                        <p>For course details and enrollment:</p>
+                        <p><strong>Phone:</strong> +251 916 86 01 29 / +251 911 97 09 37</p>
+                        <p><strong>Email:</strong>Novelrobel12@gmail.com</p>
+                        <p><strong>Call for pricing information</strong> and enrollment procedures</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Nail Care Gallery -->
+            <div class="service-gallery" id="nailGallery">
+                <div class="gallery-header">
+                    <h3>NAIL CARE EDUCATION GALLERY</h3>
+                    <p>PROFESSIONAL NAIL TECHNICIAN TRAINING</p>
+                </div>
+                
+                <div class="slider-container">
+                    <button class="slider-arrow prev-arrow">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    
+                    <div class="slider-track" id="nailSliderTrack">
+                        <!-- Slide 1 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Nail Class" class="product-image">
+                                <div class="product-title">NAIL TECHNICIAN TRAINING</div>
+                                <div class="product-description">Students learning professional nail care</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 2 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_hBFf7nbH-edmdVuwPQgC8tWOhcQ983-dRQ&s" alt="Manicure Training" class="product-image">
+                                <div class="product-title">MANICURE TRAINING</div>
+                                <div class="product-description">Professional manicure techniques</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 3 -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEA8QEBAPEBUPDw0QDw8QEA8PDw8PFREWFhURFRUYHSggGBolGxUVITEhJSktLi4uFx8zODMsNygtLisBCgoKDg0OFxAQGi0eHR0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLSsrK//AABEIAK4BIgMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAABAwACBAUGBwj/xABAEAACAQIEAgcGAwUGBwAAAAABAgADEQQSITEFQRMiUWFxgZEGFCJSobFCwdEjU2KCkgcVM0OT0iRjhKLh8PH/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAhEQACAgICAwEBAQAAAAAAAAAAAQIRAxIhMRNBUTIiYf/aAAwDAQACEQMRAD8A9mk0LEoLRyyS2PpteXmWmTeapSJYZJJIxFhDAIYCJDBDACQyQRgSSSSAEkkkvAAwSQRAQxLxpi6kTGjPzmlJnbePQyUOQ2KjIo7yyBkq0IMq0ACkvKLLGATAZJIACQyQGIYIIYIAVMqZYypgMEkkkQCgIwSoEvApjKYl7yiGXvGiS4kgWXAjAghkkgBIZIIAGSCGAgyQSQAkkkkAJJJJAAGLqRkpUiY0ZzvHpEHeOSShsbFRkXKJLQNDKtAArLGVWEmAAMEl4M0ADKmG4lS0ADAZM0rmgMhgMBeAtEBJIM0kLHQAYYAIrFVMoHeYh0aAZeYlrXj6VQwTG0aqZjYgCWDmWQNgJtKmpMuKxiL1mC+JtJcgSNecSZxOS/FKI/zU/qECcUpH/MX+oQ2HqdldZYCYKGNU9VgfA3jfeIWPRmu0IEQj3jC1hFYtRmUSpEUasIqSrDVjAshWVzw54rDVkKyjCPU3jloiMm6OUw1jFnSNBeyU93WGobGSKnQOGEUcEe2OhWZoGmj3VoGwtRUOxAlXMd0DdkqaZhQCCpgymPyQ9HFQWZ8smSaMkGSFBZnywZJoySZIUFmYpBlmnLAVhQ7M+WSPywwoLM4mfGbqPEzTMmIvnA7omWuwUl1m5RaJpKF1O5jBc76CJAxgbsjKSnnEJUUaDXwj0J8JSJYKgInzj+1pHajSKBzZ9ct9rHsm0kpGv3JIPkQf3T01V+Tf+E5v/Ut2IqmZ8I8VMQp8tVYf8pSZawzepM4Nw8G1hzsb2/OGa3y+l/1EP2qn8qMPQg/nM8uFZfj6E0Q8YFwCwIv2I9x9SZ0H5dv2lGxMg9kGJ6RmlGcD0q7bDzYTSmPT5SfpsE0VKc8P/wBTqVsq39R+ksmJqnfKPQXl0Fg/U9TMSqtuDf3Av+UjoKfmJPqT++kZnJ3J/CQL4JgxwLju8LfnCaaqHdRb6/kJ4l1G1z67faSBj4G8Cv26tHw0u49jKPikG9yfMEStpaKiuw+/u7n7m3hqfvlF8N3b/qb/DNEl45Yjs39tHn2Z+yfqJW4q6/TdU67yWPdmJt7bS9ohFZR8o+qmQySVFaY13gvx1+7j2Fjf6AX/OLqYp7aD3FvzN/yjLSlSnf8AGv8A1Vv9YZFZX9JHw0+5Vny5T7uJvzN/yj5SVb+EX8dfu49l4v3cTfnL9rA/7P8AVr/SY0tI2nP2+H/w3/17/wDyFvzlHu/f7v8Ap7ymSEiKs/JGfJPD//Z" alt="Nail Art" class="product-image">
+                                <div class="product-title">NAIL ART WORKSHOP</div>
+                                <div class="product-description">Creative nail art design training</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="slider-arrow next-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <div class="slider-dots" id="nailSliderDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">ABOUT OUR SCHOOL</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <h3>WELCOME TO SOLOMON ABEGAZ BEAUTY SCHOOL</h3>
+                    <p>ESTABLISHED WITH A VISION TO PROVIDE WORLD-CLASS BEAUTY EDUCATION IN TURUFAT AND GODGUADA, ETHIOPIA, OUR SCHOOL COMBINES TRADITIONAL ETHIOPIAN BEAUTY TECHNIQUES WITH MODERN INTERNATIONAL STANDARDS. WE BELIEVE IN EMPOWERING INDIVIDUALS WITH PROFESSIONAL SKILLS FOR SUCCESSFUL CAREERS.</p>
+                    <p>OUR TEAM OF CERTIFIED INSTRUCTORS IS DEDICATED TO PROVIDING HANDS-ON TRAINING IN A SUPPORTIVE AND PROFESSIONAL ENVIRONMENT. WE USE THE LATEST TECHNIQUES AND EQUIPMENT TO ENSURE OUR STUDENTS RECEIVE THE BEST EDUCATION POSSIBLE.</P>
+                    
+                    <div class="education-section">
+                        <h4>INTERNATIONAL CERTIFICATION & CAREER DEVELOPMENT</h4>
+                        <p>SOLOMON ABEGAZ BEAUTY SCHOOL IS A RECOGNIZED BEAUTY EDUCATION CENTER:</p>
+                        <ul>
+                            <li>INTERNATIONALLY RECOGNIZED CERTIFICATIONS</li>
+                            <li>HANDS-ON PRACTICAL TRAINING</li>
+                            <li>CAREER DEVELOPMENT PROGRAMS</li>
+                            <li>JOB PLACEMENT ASSISTANCE</li>
+                            <li>BUSINESS MANAGEMENT TRAINING</li>
+                            <li>CONTINUING EDUCATION OPPORTUNITIES</li>
+                        </ul>
+                        <p>OUR GRADUATES RECEIVE INTERNATIONALLY RECOGNIZED CERTIFICATES THAT OPEN DOORS TO CAREER OPPORTUNITIES BOTH LOCALLY AND GLOBALLY.</p>
+                    </div>
+                    
+                    <h3>OUR TRAINING CENTERS</h3>
+                    <table class="branches-table">
+                        <thead>
+                            <tr>
+                                <th>TRAINING CENTER</th>
+                                <th>LOCATION</th>
+                                <th>CONTACT NUMBERS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="branch-number">1</span> TURUFAT TRAINING CENTER</td>
+                                <td>TURUFAT, ETHIOPIA</td>
+                                <td>
+                                    <div class="phone-numbers">
+                                        <div class="phone-number">
+                                            <i class="fas fa-phone"></i> +251 916 86 01 29
+                                        </div>
+                                        <div class="phone-number">
+                                            <i class="fas fa-phone"></i> +251 911 97 09 37
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="branch-number">2</span> GODGUADA TRAINING CENTER</td>
+                                <td>GODGUADA, ETHIOPIA</td>
+                                <td>
+                                    <div class="phone-numbers">
+                                        <div class="phone-number">
+                                            <i class="fas fa-phone"></i> +251 916 86 01 29
+                                        </div>
+                                        <div class="phone-number">
+                                            <i class="fas fa-phone"></i> +251 911 97 09 37
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">CONTACT OUR SCHOOL</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>OUR TRAINING CENTERS</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>CENTER 1: TURUFAT</h4>
+                            <p>TURUFAT, ETHIOPIA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>CENTER 2: GODGUADA</h4>
+                            <p>GODGUADA, ETHIOPIA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>PHONE NUMBERS</h4>
+                            <div class="phone-numbers">
+                                <div class="phone-number">
+                                    <i class="fas fa-phone"></i> +251 916 86 01 29
+                                </div>
+                                <div class="phone-number">
+                                    <i class="fas fa-phone"></i> +251 911 97 09 37
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>EMAIL</h4>
+                            <p><a href="mailto:Novelrobel12@gmail.com" class="email-link">NOVELROBEL12@GMAIL.COM</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>ADMISSION HOURS</h4>
+                            <p>MONDAY - SATURDAY: 8:30 AM - 6:00 PM</p>
+                            <p>SUNDAY: CLOSED</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Protected Feedback Form -->
+                <div class="contact-form">
+                    <div class="form-overlay" id="formOverlay">
+                        <i class="fas fa-lock"></i>
+                        <h3>SIGN IN REQUIRED</h3>
+                        <p>PLEASE SIGN UP OR LOG IN TO SEND FEEDBACK</p>
+                        <button class="btn" id="loginToFeedback">SIGN UP / LOGIN</button>
+                    </div>
+                    
+                    <h3>SEND US A MESSAGE</h3>
+                    <div id="statusMessage" class="status-message"></div>
+                    <form id="messageForm">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="tel" name="phone" placeholder="Your Phone Number">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-feedback">SEND FEEDBACK</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <h3>SOLOMON ABEGAZ BEAUTY SCHOOL</h3>
+                    <p>EXCELLENCE IN BEAUTY EDUCATION SINCE 2020.</p>
+                    <p>INTERNATIONAL CERTIFICATION PROVIDER</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#services">EDUCATION PROGRAMS</a></li>
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>CONTACT INFO</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> TURUFAT & GODGUADA, ETHIOPIA</p>
+                    <div class="phone-numbers">
+                        <div class="phone-number">
+                            <i class="fas fa-phone"></i> +251 916 86 01 29
+                        </div>
+                        <div class="phone-number">
+                            <i class="fas fa-phone"></i> +251 911 97 09 37
+                        </div>
+                    </div>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:Novelrobel12@gmail.com" class="email-link">NOVELROBEL12@GMAIL.COM</a></p>
+                    <p><i class="fas fa-graduation-cap"></i> INTERNATIONAL CERTIFICATION PROVIDER</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 SOLOMON ABEGAZ BEAUTY SCHOOL. ALL RIGHTS RESERVED. | DESIGNED FOR EXCELLENCE IN BEAUTY EDUCATION</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Auth Modal -->
+    <div class="auth-modal" id="authModal">
+        <div class="auth-container">
+            <button class="close-auth" id="closeAuth">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="auth-header">
+                <h3>WELCOME</h3>
+                <p>SIGN UP OR LOGIN TO SEND FEEDBACK</p>
+            </div>
+            
+            <div class="auth-tabs">
+                <button class="auth-tab active" data-tab="signup">SIGN UP</button>
+                <button class="auth-tab" data-tab="login">LOGIN</button>
+            </div>
+            
+            <!-- Sign Up Form -->
+            <form id="signupForm" class="auth-form active">
+                <input type="text" id="signupName" placeholder="Full Name" required>
+                <input type="email" id="signupEmail" placeholder="Email Address" required>
+                
+                <div class="phone-input-group">
+                    <span class="country-code-display">+251</span>
+                    <input type="tel" id="signupPhone" class="ethiopian-phone-input" placeholder="9XXXXXXXX" pattern="^9[0-9]{8}$" required>
+                </div>
+                <p class="phone-hint">Format: 9XXXXXXXX (9 digits starting with 9)</p>
+                
+                <input type="password" id="signupPassword" placeholder="Password (min 6 characters)" minlength="6" required>
+                <input type="password" id="signupConfirm" placeholder="Confirm Password" required>
+                
+                <button type="submit" class="btn" id="signupSubmitBtn" style="width: 100%;">
+                    SIGN UP
+                </button>
+            </form>
+            
+            <!-- Login Form -->
+            <form id="loginForm" class="auth-form">
+                <div style="margin-bottom: 1rem;">
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 0.5rem;">Login with Email or Phone:</p>
+                    <input type="text" id="loginIdentifier" placeholder="Email or Phone (+251XXXXXXXXX)" required>
+                </div>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <button type="submit" class="btn" style="width: 100%;">LOGIN</button>
+            </form>
+            
+            <div id="authStatus" class="status-message" style="margin-top: 1rem;"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
